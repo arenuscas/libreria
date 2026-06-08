@@ -3,8 +3,14 @@
     <h1>Tienda de libros</h1>
     <p>Libros online</p>
 
-    <input type="text" placeholder="Usuario">
-    <input type="password" placeholder="Contraseña">
+    <input type="text" 
+    placeholder="Usuario"
+    [([(ngModel)]="Usuario")]>
 
-    <button routerLink="/home">Ingresar</button>
+    <input type="password"
+    placeholder="Contraseña"
+    [([(ngModel)]="Contraseña")] >
+
+    <button (click)="Ingresar()">Ingresar</button>
+    </div>
 </div>
