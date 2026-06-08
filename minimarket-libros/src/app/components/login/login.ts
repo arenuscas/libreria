@@ -23,5 +23,5 @@ export class Login {
     }else{
     alert('usuario o contraseña incorrectos')
     }
-  }  
+  }
 }
