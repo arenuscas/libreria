@@ -1,16 +1,18 @@
 <div class="login-container">
-<div class="login-card">
-    <h1>TIENDA PILOTO DE LIBROS</h1>
-    <p>Libros online</p>
+  <div class="login-card">
+    <h1>BookMarket</h1>
+    <p>Minimarket de libros online</p>
 
-    <input type="text"
-    placeholder="Usuario"
-    [([(ngModel)]="Usuario")]>
+    <input
+      type="text"
+      placeholder="Usuario"
+      [(ngModel)]="usuario">
 
-    <input type="password"
-    placeholder="Contraseña"
-    [([(ngModel)]="Contraseña")] >
+    <input
+      type="password"
+      placeholder="Contraseña"
+      [(ngModel)]="password">
 
-    <button (click)="Ingresar()">Ingresar</button>
-    </div>
+    <button (click)="ingresar()">Ingresar</button>
+  </div>
 </div>
